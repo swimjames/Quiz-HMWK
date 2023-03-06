@@ -1,0 +1,47 @@
+body {
+    background-color: white; 
+}
+
+h1, 
+h2 {
+    color: #313740;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+a {
+    color: #3290A6;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+a:hover {
+    color: #99B8BF;
+    font-family: 'Proxima Nova', sans-serif;
+}
+/* outline and shadow on button when clicked and hovered */
+.btn:focus, .btn:active{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#finalScore {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: bold;
+}
+
+span {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+p {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+#questionTitle {
+    font-size: 20px;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+#answerCheck {
+    font-style: italic;
+    color: #4D5159;
+}
