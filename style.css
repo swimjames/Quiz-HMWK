@@ -1,3 +1,4 @@
+*{align-content: center;}
 body {
     background-color: white; 
 }
@@ -44,4 +45,13 @@ p {
 #answerCheck {
     font-style: italic;
     color: #4D5159;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    border-radius: 15%;
+    width: 75px;
+    height: 75px;
+    
 }

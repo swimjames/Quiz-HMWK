@@ -1,4 +1,4 @@
-List of questions and a possible answers and correct answer
+// List of questions and a possible answers and correct answer
 const questions = [
     {
         question: "How many types of Pokeballs are there?",
@@ -18,7 +18,7 @@ const questions = [
     {
         question: "How many Pokemon are you allowed to have on you at one time?",
         choices: ["a. 3", "b. 6", "c. 10", "d. 12"],
-        answer: "c. 6"
+        answer: "b. 6"
     },
     {
         question: "How many different species of Pokemon are there?",
@@ -38,7 +38,7 @@ const questions = [
     {
         question: "What is Piplup's final evolution?",
         choices: ["a. Empoleon", "b. Prinplup", "c. Turtwig", "d. Celebi"],
-        answer: "a. 0"
+        answer: "a. Empoleon"
     },
     {
         question: "Who is Ash's rival?",
@@ -246,6 +246,7 @@ function showHighScores() {
     console.log(savedHighScores);
 
     var storedHighScores = JSON.parse(savedHighScores);
+    storedHighScores.sort((a,b) => b.score - a.score);
 
     for (; i < storedHighScores.length; i++) {
         var eachNewHighScore = document.createElement("p");
